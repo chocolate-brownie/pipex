@@ -162,13 +162,3 @@ valgrind --leak-check=full --track-origins=yes ./pipex infile "cmd1" "cmd2" outf
 ```
 
 Fix any memory leaks by ensuring that you `free()` dynamically allocated memory, especially when using functions like `ft_split`.
-
-## Conclusion
-
-Pipex is a great project to dive deeper into system calls, process management, and file handling in Unix-like systems. Follow the roadmap, test thoroughly, and you'll be able to build a robust pipex program that mimics shell pipelines!
-
-Good luck, and happy coding!
-
---- 
-
-This README provides a comprehensive guide for beginners, walking them through each step needed to build the project from scratch. Let me know if you need any further adjustments!
